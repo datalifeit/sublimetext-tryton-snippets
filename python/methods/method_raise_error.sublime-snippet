@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cls.raise_user_error('${1:exception_text_name}'${2:, (${3:substitution value},)})
+
+'$1': '${4:Exception Text}',
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_raise_error</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

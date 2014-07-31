@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+from trytond.model import ModelSQL, ModelView, fields
+
+__all__ = ['${1:ClassName}']
+
+
+class ${1:ClassName}(ModelSQL, ModelView):
+    '''${2:Model Title}'''
+    __name__ = '${3:model.name}'
+
+    ${4}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_new_model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

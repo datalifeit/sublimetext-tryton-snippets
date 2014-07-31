@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def get_company_config(cls, configs, names):
+    pool = Pool()
+    CompanyConfig = pool.get('stock.configuration.company')
+
+    company_id = Transaction().context.get('company')
+    company_configs = CompanyConfig.search([
+            ('company', '=', company_id),
+            ])
+
+    res = {}
+    for fname in names:
+        res[fname] = {}.fromkeys([c.id for c in configs], None)
+        if company_configs:
+            val = getattr(company_configs[0], fname)
+            if isinstance(val, Model):
+                val = val.id
+            res[fname][configs[0].id] = val
+    return res
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_getter_company</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

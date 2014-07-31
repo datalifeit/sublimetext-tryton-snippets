@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.DateTime('${2:Field Title}'${3:, format=${4:'%H:M:%S'}}${5:, required=True}${6:, readonly=True}${9}${7:,
+    help='${8}'})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fields.DateTime</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,13 @@
+SublimeText Tryron Snippets
+=========================
+
+Prerequisites
+-------------
+
+ * SublimeText 3 (http://www.sublimetext.com/3)
+
+Installation
+------------
+
+Clone repository to ~/.config/sublime-text-3/Packages/tryton-snippets
+

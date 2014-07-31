@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@staticmethod
+def default_${1:field_name}():
+    return ${2:True}
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_default</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

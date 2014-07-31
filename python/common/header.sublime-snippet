@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+# The COPYRIGHT file at the top level of this repository contains the full
+# copyright notices and license terms.
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_header</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

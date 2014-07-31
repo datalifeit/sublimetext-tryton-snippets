@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Many2One('${2:target.model}', '${3:Field Title}'${4:, required=True}${5:, readonly=True}${6:, select=True}${7:, ondelete='${8:CASCADE}'}${11}${9:,
+    help='${10}'})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fields.Many2One</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

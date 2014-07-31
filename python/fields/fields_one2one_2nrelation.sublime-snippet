@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.One2One('${2:target.model}-${3:current-model}', '${4:field_to_this}', '${5:field_to_target}', '${6:Field Title}'${7:, required=True}${8:, readonly=True}${11}${9:,
+    help='${10}'})
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fields.One2One</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def set_company_config(cls, configs, name, value):
+    pool = Pool()
+    CompanyConfig = pool.get('stock.configuration.company')
+
+    company_id = Transaction().context.get('company')
+    company_configs = CompanyConfig.search([
+            ('company', '=', company_id),
+            ])
+    if company_configs:
+        company_config = company_configs[0]
+    else:
+        company_config = CompanyConfig(company=company_id)
+    setattr(company_config, name, value)
+    company_config.save()
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_setter_company</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

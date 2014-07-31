@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def get_${1:name}(cls, ${2:records}, names):
+    ${4}
+    return ${3:{'fieldname': {record_id: record_value}}}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_getter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

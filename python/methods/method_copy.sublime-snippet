@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def copy(cls, ${1:records}, default=None):
+    if default is None:
+        default = {}
+    else:
+        default = default.copy()
+    ${3}
+    return super(${2:ClassName}, cls).copy($1, default=default)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_copy</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

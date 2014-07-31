@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+('${1:fieldname}_uniq', 'UNIQUE ($1)',
+    'The ${2:Field Title} of the ${3:Model Title} must be unique.'),
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_uniq_constraint</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def validate(cls, ${1:records}):
+    super(${2:ClassName}, cls).validate($1)
+    cls.check_${4:validation}($1)
+
+@classmethod
+def check_$4(cls, $1):
+    ${5}
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_validate</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

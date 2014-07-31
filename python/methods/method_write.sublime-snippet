@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def write(cls, *args):
+    actions = iter(args)
+    args = []
+    for records, values in zip(actions, actions):
+        ${2:values['example'] = True  # add/del/modify items from values}
+        args.extend((records, values))
+    super(${1:ClassName}, cls).write(*args)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>_write</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
