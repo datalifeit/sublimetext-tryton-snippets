@@ -2,7 +2,7 @@
 	<content><![CDATA[<label name="$1"/>
 <field name="${1:fieldname}"/>
 ]]></content>
-	<tabTrigger>tvfield-label</tabTrigger>
+	<tabTrigger>tvfield</tabTrigger>
 	<scope>text.xml</scope>
     <description>Tryton: View Field Tag with label</description>
 </snippet>
