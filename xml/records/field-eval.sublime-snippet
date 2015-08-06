@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<field name="${1:fieldname}" eval="${2:value}"/>
+]]></content>
+	<tabTrigger>trfield</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Record Field Tag eval</description>
+</snippet>

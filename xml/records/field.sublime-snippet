@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<field name="${1:fieldname}">${2:Field Value}</field>
+]]></content>
+	<tabTrigger>trfield</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Record Field Tag</description>
+</snippet>

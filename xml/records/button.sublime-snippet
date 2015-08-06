@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[<record model="ir.model.button" id="${1:model_id}_${2:button_id}_button">
+    <field name="name">$2</field>
+    <field name="model" search="[('model', '=', '${3:model.model}')]"/>
+</record>
+<record model="ir.model.button-res.group"
+    id="$1_$2_button_${4:group_id}">
+    <field name="button" ref="$1_$2_button"/>
+    <field name="group" ref="${5:other_module.}$4"/>
+</record>
+]]></content>
+	<tabTrigger>trecord_button</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Record for button</description>
+</snippet>

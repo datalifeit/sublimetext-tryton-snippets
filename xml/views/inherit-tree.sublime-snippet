@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[<data>
+    <xpath expr="/tree/${1:field}[@${2:name}='${3:fieldname}']" position="${4:after}">
+        ${5}
+    </xpath>
+</data>
+]]></content>
+	<tabTrigger>tview_intree</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Inherited Tree View</description>
+</snippet>

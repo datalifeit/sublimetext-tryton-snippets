@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<label name="$1"/>
+<field name="${1:fieldname}"/>
+]]></content>
+	<tabTrigger>tvfield-label</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: View Field Tag with label</description>
+</snippet>

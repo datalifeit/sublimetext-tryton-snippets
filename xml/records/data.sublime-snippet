@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<record model="${1:model.name}" id="${2:model_name_record_id}">
+    ${3:fields}
+</record>
+]]></content>
+	<tabTrigger>trecord_data</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Record for data</description>
+</snippet>

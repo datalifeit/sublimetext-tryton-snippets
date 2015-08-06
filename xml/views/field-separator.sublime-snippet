@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[${4:<separator name="$1"$2/>
+}<field name="${1:fieldname}"${2: colspan="${3}"}/>
+]]></content>
+	<tabTrigger>tvfield-separator</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: View Field Tag with separator</description>
+</snippet>

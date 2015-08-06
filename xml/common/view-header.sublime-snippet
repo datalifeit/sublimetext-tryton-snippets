@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+${1}
+]]></content>
+	<tabTrigger>tview_header</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: views file header</description>
+</snippet>

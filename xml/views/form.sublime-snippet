@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[<form string="${1:Title}"${2: col="${3}"}>
+    ${4}
+</form>
+]]></content>
+	<tabTrigger>tview_form</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Form View</description>
+</snippet>

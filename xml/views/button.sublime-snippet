@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<button name="${1:name}" string="${2:label}"${3: icon="${4:tryton-executable}"}${5: confirm="${6:Are you sure?}"}${7: colspan="${8:2}"}${9: states="${10}"}${11: help="${12}"}/>
+]]></content>
+	<tabTrigger>tvbutton</tabTrigger>
+	<scope>text.xml</scope>
+    <description>Tryton: Button</description>
+</snippet>
