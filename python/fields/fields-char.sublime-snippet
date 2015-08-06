@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Char('${2:Field Title}'${3:, translate=True}${4:, size=${5}}${6:, required=True}${7:, readonly=True}${10}${8:,
+    help='${9}'})
+]]></content>
+    <tabTrigger>tfields.Char</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Char()</description>
+</snippet>

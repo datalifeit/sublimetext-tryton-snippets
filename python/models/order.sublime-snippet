@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_order = [('${1:fieldname}', '${2:ASC}')${3}]
+]]></content>
+    <tabTrigger>torder</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: _order attribute of Model</description>
+</snippet>

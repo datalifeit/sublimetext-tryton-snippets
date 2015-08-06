@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Selection('get_${2:$1s}', '${3:Field Title}'${4:, sort=True}${5:, selection_change_with=[${6:'fieldname',}]}${7:, required=True}${8:, readonly=True}${9:, select=True}${12}${10:,
+    help='${11}'})
+
+@staticmethod
+def get_$2():
+    return [(name, title),]
+
+]]></content>
+    <tabTrigger>tfields.Selection</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Selection()</description>
+</snippet>

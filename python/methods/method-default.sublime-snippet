@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@staticmethod
+def default_${1:field_name}():
+    return ${2:True}
+]]></content>
+    <tabTrigger>tdefault</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: default_fieldname() function</description>
+</snippet>

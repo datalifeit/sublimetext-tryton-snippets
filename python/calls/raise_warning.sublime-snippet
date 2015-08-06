@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+cls.raise_user_warning('${1:warning_id}', '${2:warning_message_name}'${3:, (${4:substitution value},)})
+
+'$2': '${5:Warning Text}',
+]]></content>
+    <tabTrigger>traise_warning</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: raise user warning</description>
+</snippet>

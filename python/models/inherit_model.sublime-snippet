@@ -2,18 +2,16 @@
     <content><![CDATA[
 from trytond.pool import PoolMeta
 
-__all__ = ['${1:ClassName}']
+__all__ = ['$1']
 __metaclass__ = PoolMeta
 
 
 class ${1:ClassName}:
     __name__ = '${2:model.name}'
-
     ${3}
 
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>_inherit_model</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <tabTrigger>tinclass</tabTrigger>
     <scope>source.python</scope>
+	<description>Tryton: inherit model</description>
 </snippet>

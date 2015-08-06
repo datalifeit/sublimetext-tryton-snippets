@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def search_${1:fieldname}(cls, name, clause):
+    return [
+        ${2}
+        ]
+]]></content>
+    <tabTrigger>tsearcher</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: functional field searcher</description>
+</snippet>

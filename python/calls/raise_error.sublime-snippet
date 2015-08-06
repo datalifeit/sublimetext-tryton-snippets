@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+cls.raise_user_error('${1:exception_text_name}'${2:, (${3:substitution value},)}${4:, raise_exception=False})
+
+'$1': '${5:Exception Text}',
+]]></content>
+    <tabTrigger>traise_error</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: raise user error</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[states={
+    	${1:'${2:required}': ${3:Eval('${4:field_name}', 0)},}
+    	}, depends=['$4']
+]]></content>
+    <tabTrigger>tstates</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: states fields attribute</description>
+</snippet>

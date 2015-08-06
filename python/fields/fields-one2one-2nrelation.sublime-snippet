@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.One2One('${2:target.model}-${3:current-model}', '${4:field_to_this}', '${5:field_to_target}', '${6:Field Title}'${7:, required=True}${8:, readonly=True}${11}${9:,
+    help='${10}'})
+]]></content>
+    <tabTrigger>tfields.One2One</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.One2One() second relation side</description>
+</snippet>

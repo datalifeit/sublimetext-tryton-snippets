@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Reference('${2:Field Title}', selection='get_${3:$1}'${4:, selection_change_with=[${5:'fieldname',}]}${6:, required=True}${7:, readonly=True}${8:, select=True}${11}${9:,
+    help='${10}'})
+
+@classmethod
+def _get_$3(cls):
+    'Return list of Model names for $1 Reference'
+    return [${12}]
+
+@classmethod
+def get_$3(cls):
+    pool = Pool()
+    Model = pool.get('ir.model')
+    models = cls._get_$3()
+    models = Model.search([
+            ('model', 'in', models),
+            ])
+    return [('', '')] + [(m.model, m.name) for m in models]
+]]></content>
+    <tabTrigger>tfields.Reference</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Reference()</description>
+</snippet>

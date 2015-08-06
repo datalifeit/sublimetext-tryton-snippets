@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Selection([
+        ${2:('draft', 'Draft'),}${3}
+        ], '${4:Field Title}'${5:, required=True}${6:, readonly=True}${7:, select=True}${10}${8:,
+    help='${9}'})
+]]></content>
+    <tabTrigger>tfields.Selection</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Selection()</description>
+</snippet>

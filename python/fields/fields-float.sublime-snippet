@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Float('${2:Field Title}', digits=(16, ${3:Eval('unit_digits', 2)})${4:, required=True}${5:, readonly=True}${8}${6:,
+    help='${7}'})
+]]></content>
+    <tabTrigger>tfields.Float</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Float()</description>
+</snippet>

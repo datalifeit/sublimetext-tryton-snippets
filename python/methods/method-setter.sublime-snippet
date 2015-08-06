@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def set_${1:fielname}(cls, ${2:records}, name, value):
+    ${3:cls.write($2, {
+            '${4:fieldname}': ${5:value},
+            })}
+]]></content>
+    <tabTrigger>tsetter</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: functional field setter</description>
+</snippet>

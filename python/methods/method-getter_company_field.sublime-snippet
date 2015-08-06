@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def get_company_config(cls, configs, names):
+    pool = Pool()
+    CompanyConfig = pool.get('stock.configuration.company')
+
+    company_id = Transaction().context.get('company')
+    company_configs = CompanyConfig.search([
+            ('company', '=', company_id),
+            ])
+
+    res = {}
+    for fname in names:
+        res[fname] = {}.fromkeys([c.id for c in configs], None)
+        if company_configs:
+            val = getattr(company_configs[0], fname)
+            if isinstance(val, Model):
+                val = val.id
+            res[fname][configs[0].id] = val
+    return res
+
+]]></content>
+    <tabTrigger>tgetter_company_config</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: getter for company dependant field (property) in configuration singleton</description>
+</snippet>

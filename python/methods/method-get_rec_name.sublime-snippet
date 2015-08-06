@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+def get_rec_name(self, name):
+    return ${1}
+Hello, ${1:this} is a ${2:snippet}.
+]]></content>
+    <tabTrigger>tget_rec_name</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: getter for rec_name</description>
+</snippet>

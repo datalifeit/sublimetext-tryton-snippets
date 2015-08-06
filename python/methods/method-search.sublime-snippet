@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def search(cls, domain, offset=0, limit=None, order=None, count=False,
+		query=False):
+    ${2}
+	return super(${1:ClassName}, cls).search(domain, offset=offset, limit=limit,
+		order=order, count=count, query=query)
+]]></content>
+    <tabTrigger>tsearch</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: search() reimplementation</description>
+</snippet>

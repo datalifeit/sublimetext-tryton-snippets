@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cls._sql_constraints += [
+    ${1}
+    ]
+
+]]></content>
+    <tabTrigger>tsql_constraints</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: cls._sql_constraints</description>
+</snippet>

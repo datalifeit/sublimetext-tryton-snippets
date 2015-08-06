@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Integer('${2:Field Title}'${3:, required=True}${4:, readonly=True}${7}${5:,
+    help='${6}'})
+]]></content>
+    <tabTrigger>tfields.Integer</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Integer()</description>
+</snippet>

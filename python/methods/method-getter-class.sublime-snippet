@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def get_${1:fieldname}(cls, ${2:records}, name):
+    ${4}
+    return ${3:{record_id: record_value}}
+]]></content>
+    <tabTrigger>tgetter</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: functional field class getter</description>
+</snippet>

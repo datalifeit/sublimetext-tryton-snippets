@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:fieldname} = fields.Many2One('${2:target.model}', '${3:Field Title}'${4:, required=True}${5:, readonly=True}${6:, select=True}${7:, ondelete='${8:CASCADE}'}${11}${9:,
+    help='${10}'})
+]]></content>
+    <tabTrigger>tfields.Many2One</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: fields.Many2One()</description>
+</snippet>

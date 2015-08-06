@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+('${1:fieldname}_uniq', 'UNIQUE ($1)',
+    'The ${2:Field Title} of the ${3:Model Title} must be unique.'),
+
+]]></content>
+    <tabTrigger>tuniq_constraint</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: UNIQUE SQL Constraint</description>
+</snippet>

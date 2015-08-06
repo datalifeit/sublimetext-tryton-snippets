@@ -4,8 +4,7 @@
 # copyright notices and license terms.
 
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>_header</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <tabTrigger>theader</tabTrigger>
     <scope>source.python</scope>
+    <description>Tryton: modules file header</description>
 </snippet>

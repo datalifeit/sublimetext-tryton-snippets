@@ -2,8 +2,7 @@
     <content><![CDATA[
 from trytond.transaction import Transaction
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>_import_transaction</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <tabTrigger>timport_transaction</tabTrigger>
     <scope>source.python</scope>
+    <description>Tryton: Transaction classes import</description>
 </snippet>

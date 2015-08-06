@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+def get_${1:fieldname}(self, name):${3}
+    return ${2}
+]]></content>
+    <tabTrigger>tgetter</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: functional field instance getter</description>
+</snippet>
