@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def __register__(cls, module_name):
+    TableHandler = backend.get('TableHandler')
+    cursor = Transaction().cursor
+    table = cls.__table__()
+
+    ${2:# Migration from ${3:3.4.0}: ${4:Rename column}
+    handler = TableHandler(cursor, cls, module_name)
+    ${5:new_column}_exists = handler.column_exist('$5')}
+
+    super(${1:ClassName}, cls).__register__(module_name)
+
+    ${6:# Migration from $3: $4
+    handler = TableHandler(cursor, cls, module_name)
+    if handler.column_exists('${7:old_column}'):
+        if not $5_exists:
+            table.update(['$5'], [table.$7])
+        handler.drop_column('$7')}
+    ${7}
+
+]]></content>
+    <tabTrigger>tregister</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: __register__()</description>
+</snippet>

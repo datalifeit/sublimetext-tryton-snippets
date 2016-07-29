@@ -3,11 +3,11 @@
 from trytond.pool import PoolMeta
 
 __all__ = ['$1']
-__metaclass__ = PoolMeta
 
 
 class ${1:ClassName}:
     __name__ = '${2:model.name}'
+    __metaclass__ = PoolMeta
     ${3}
 
 ]]></content>
