@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+from trytond.report import Report
+
+__all__ = ['$1']
+
+
+class ${1:ClassName}(Report):
+    '''${2:Model Title}'''
+    __name__ = '${3:model.name}'
+    ${4}
+]]></content>
+    <tabTrigger>treport</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: new report</description>
+</snippet>

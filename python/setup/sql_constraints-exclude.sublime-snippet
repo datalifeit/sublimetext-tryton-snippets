@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cls._sql_constraints += [
+    ('exclude', Exclude(${1:table},(${2:table.value}, ${3:Equal}), where=${2:table.value> 0}), "${4:Value must be unique}.")
+    ]
+
+]]></content>
+    <tabTrigger>texclude_constraint</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: EXCLUDE SQL Constraints</description>
+</snippet>

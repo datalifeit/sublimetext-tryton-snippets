@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cls._buttons.update({
+    '${1:button_key}': {
+       '${2:property_key}':  ${3:property_value}}
+})
+]]></content>
+    <tabTrigger>tadd_button</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: create button</description>
+</snippet>

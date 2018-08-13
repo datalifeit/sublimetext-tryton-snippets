@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+from trytond.model import ModelView, Workflow
+
+@classmethod
+@ModelView.button
+@Workflow.transition('${1:transition_name}')
+def ${2:button_name}(cls, ${3:vlist}):
+
+]]></content>
+    <tabTrigger>ttransition_button</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: transition button</description>
+</snippet>

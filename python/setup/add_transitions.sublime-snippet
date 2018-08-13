@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+cls._transitions |= set((
+    ('${1:from_state}', '${2:to_state}')
+))
+
+]]></content>
+    <tabTrigger>tadd_transitions</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: Add transitions</description>
+</snippet>
