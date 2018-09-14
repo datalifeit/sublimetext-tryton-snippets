@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[<record model="ir.ui.view" id="${1:model_id}_form_view">
+	<content><![CDATA[<record model="ir.ui.view" id="${1:model_id}_view_form">
     <field name="model">${2:model_name}</field>
     <field name="type">form</field>
     <field name="name">$1_form</field>
 </record>
 
-<record model="ir.ui.view" id="$1_list_view">
+<record model="ir.ui.view" id="$1_view_list">
     <field name="model">$2</field>
     <field name="type">tree</field>
     <field name="name">$1_list</field>
