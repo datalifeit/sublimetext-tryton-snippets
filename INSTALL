@@ -9,5 +9,7 @@ Prerequisites
 Installation
 ------------
 
-Clone repository to ~/.config/sublime-text-3/Packages/tryton-snippets
+* Clone repository to ~/.config/sublime-text-3/Packages/tryton-snippets
+
+* or install it with Package manager
 

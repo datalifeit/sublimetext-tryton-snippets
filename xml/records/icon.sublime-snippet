@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[<record model="ir.ui.icon" id="${1:name}_icon">
+    <field name="name">tryton-$1</field>
+    <field name="path">icons/tryton-$1.svg</field>
+</record>
+]]></content>
+    <tabTrigger>trecord_icon</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Tryton: Record for Icon</description>
+</snippet>

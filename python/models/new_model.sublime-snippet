@@ -1,10 +1,5 @@
 <snippet>
     <content><![CDATA[
-from trytond.model import ModelSQL, ModelView, fields
-
-__all__ = ['${1}']
-
-
 class ${1:ClassName}(ModelSQL, ModelView):
     '''${2:Model Title}'''
     __name__ = '${3:model.name}'

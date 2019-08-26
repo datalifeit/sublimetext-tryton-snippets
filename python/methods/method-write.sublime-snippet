@@ -7,7 +7,7 @@ def write(cls, *args):
     for records, values in zip(actions, actions):
         ${2:values['example'] = True  # add/del/modify items from values}
         args.extend((records, values))
-    super(${1:ClassName}, cls).write(*args)
+    super().write(*args)
 
 ]]></content>
     <tabTrigger>twrite</tabTrigger>

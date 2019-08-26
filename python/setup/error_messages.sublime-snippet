@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 cls._error_messages.update({
-        ${1}
-        })
+    '${1:error_id}': '${2:error_description}'
+})
 ]]></content>
     <tabTrigger>terror_messages</tabTrigger>
     <scope>source.python</scope>

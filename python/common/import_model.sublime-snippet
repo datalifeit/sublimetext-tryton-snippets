@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-from trytond.model import Model, ModelSQL, ModelView, Workflow, fields
+from trytond.model import ModelSQL, ModelView, fields
 ]]></content>
     <tabTrigger>timport_model</tabTrigger>
     <scope>source.python</scope>

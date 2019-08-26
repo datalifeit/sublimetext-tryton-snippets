@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[<record model="res.group" id="group_${1:user_id}">
+    <field name="name">${2:user_name}</field>
+</record>
+<record model="res.user-res.group" id="user_admin_group_$1">
+    <field name="user" ref="res.user_admin"/>
+    <field name="group" ref="group_$1"/>
+</record>
+]]></content>
+    <tabTrigger>trecord_usergroup</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Tryton: User group record</description>
+</snippet>

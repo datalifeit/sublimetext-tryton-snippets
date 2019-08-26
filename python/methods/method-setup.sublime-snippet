@@ -2,7 +2,7 @@
     <content><![CDATA[
 @classmethod
 def __setup__(cls):
-    super(${1:ClassName}, cls).__setup__()
+    super().__setup__()
     ${2}
 
 ]]></content>

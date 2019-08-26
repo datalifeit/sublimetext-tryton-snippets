@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[
+t = cls.__table__()
 cls._sql_constraints += [
     ${1}
     ]

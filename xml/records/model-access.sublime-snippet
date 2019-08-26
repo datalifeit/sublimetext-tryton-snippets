@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[<record model="ir.model.access" id="access_${1:model_id}">
+    <field name="model" search="[('model', '=', '${2:model_name}')]"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_write" eval="False"/>
+    <field name="perm_create" eval="False"/>
+    <field name="perm_delete" eval="False"/>
+</record>
+<record model="ir.model.access" id="access_$1_group_${3:group_name}_admin">
+    <field name="model" search="[('model', '=', '$2')]"/>
+    <field name="group" ref="group_$3_admin"/>
+    <field name="perm_read" eval="True"/>
+    <field name="perm_write" eval="True"/>
+    <field name="perm_create" eval="True"/>
+    <field name="perm_delete" eval="True"/>
+</record>
+]]></content>
+    <tabTrigger>trecord_modelaccess</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Tryton: Model Access</description>
+</snippet>

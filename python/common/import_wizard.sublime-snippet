@@ -3,7 +3,7 @@
 from trytond.wizard import (Wizard, Button, StateAction, StateTransition,
     StateView)
 ]]></content>
-    <tabTrigger>_import_wizard</tabTrigger>
+    <tabTrigger>timport_wizard</tabTrigger>
     <scope>source.python</scope>
     <description>Tryton: wizard classes import</description>
 </snippet>

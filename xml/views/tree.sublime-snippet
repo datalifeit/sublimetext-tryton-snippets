@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<tree string="${1:Titles}">
+	<content><![CDATA[<tree>
     ${2}
 </tree>
 ]]></content>

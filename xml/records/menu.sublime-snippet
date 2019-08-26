@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<menuitem name="${1:menu_name}" id="${2:menu.id}" action="${3:action.id}" parent="${4:parent.id}" sequence="${5:sequence}" />
+<record model="ir.ui.menu-res.group" id="$2_${6:group.id}">
+    <field name="menu" ref="$2"/>
+    <field name="group" ref="$6"/>
+</record>
+]]></content>
+    <tabTrigger>trecord_menu</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Tryton: Record for Menu</description>
+</snippet>

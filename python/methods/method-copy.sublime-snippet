@@ -7,7 +7,7 @@ def copy(cls, ${1:records}, default=None):
     else:
         default = default.copy()
     ${3}
-    return super(${2:ClassName}, cls).copy($1, default=default)
+    return super().copy($1, default=default)
 
 ]]></content>
     <tabTrigger>tcopy</tabTrigger>

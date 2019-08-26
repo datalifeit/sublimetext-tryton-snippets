@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<form string="${1:Title}"${2: col="${3}"}>
+	<content><![CDATA[<form col="${3}">
     ${4}
 </form>
 ]]></content>
