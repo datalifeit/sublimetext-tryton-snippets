@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<record model="ir.message" id="msg_${1:msg_id}">
+    <field name="text">${2:message}</field>
+</record>
+]]></content>
+    <tabTrigger>trecord_message</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Tryton: ir_message record</description>
+</snippet>

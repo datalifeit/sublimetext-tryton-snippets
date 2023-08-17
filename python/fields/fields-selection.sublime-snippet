@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 ${1:fieldname} = fields.Selection([
-        ${2:('draft', 'Draft'),}${3}
-        ], '${4:Field Title}'${5:, required=True}${6:, readonly=True}${9}${7:,
-    help='${8}'})
+        ${2:('draft', "Draft"),}${3}
+        ], "${4:Field Title}"${5:, required=True}${6:, readonly=True}${9}${7:,
+    help="${8}"})
 ]]></content>
     <tabTrigger>tfields.Selection</tabTrigger>
     <scope>source.python</scope>

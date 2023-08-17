@@ -1,17 +1,17 @@
 <snippet>
     <content><![CDATA[
-quantity = fields.Float('Quantity', digits=(16, ${1:Eval('unit_digits', 2)})${2:,
-    required=True}${3:, readonly=True}${4}${5:, help='${6}'})
+quantity = fields.Float("Quantity", digits=(16, ${1:Eval('unit_digits', 2)})${2:,
+    required=True}${3:, readonly=True}${4}${5:, help="${6}"})
 product_uom_category = fields.Function(
-    fields.Many2One('product.uom.category', 'Product Uom Category'),
+    fields.Many2One('product.uom.category', "Product Uom Category"),
     'on_change_with_product_uom_category')
-unit = fields.Many2One('product.uom', 'Uom'${7:, required=True}${8:,
+unit = fields.Many2One('product.uom', "Uom"${7:, required=True}${8:,
     readonly=True}${9},
     domain=[
         ('category', '=', Eval('product_uom_category')),
     ],
     depends=['product_uom_category'])
-unit_digits = fields.Function(fields.Integer('Unit Digits'),
+unit_digits = fields.Function(fields.Integer("Unit Digits"),
     'on_change_with_unit_digits')
 
 @staticmethod

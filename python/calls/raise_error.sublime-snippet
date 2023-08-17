@@ -1,8 +1,7 @@
 <snippet>
     <content><![CDATA[
-cls.raise_user_error('${1:exception_text_name}'${2:, (${3:substitution value},)}${4:, raise_exception=False})
+raise UserError(gettext('${1:module_name}.${2:msg_error_id}'))
 
-'$1': '${5:Exception Text}',
 ]]></content>
     <tabTrigger>traise_error</tabTrigger>
     <scope>source.python</scope>

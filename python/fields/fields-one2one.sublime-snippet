@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.One2One('${2:current-model}-${3:target.model}', '${4:field_to_this}', '${5:field_to_target}', '${6:Field Title}'${7:, required=True}${8:, readonly=True}${17}${15:,
-    help='${16}'})
+${1:fieldname} = fields.One2One('${2:current-model}-${3:target.model}', '${4:field_to_this}', '${5:field_to_target}', "${6:Field Title}"${7:, required=True}${8:, readonly=True}${17}${15:,
+    help="${16}"})
 
 
 class ${9:CurrentModel}${10:TargetModel}(ModelSQL):
-    '${11:$9} - ${12:$10}'
+    "${11:$9} - ${12:$10}"
     __name__ = '$2-$3'
     ${13:_table = '${14:shorter_table_name}'
-    }$4 = fields.Many2One('$2', '$11', ondelete='CASCADE', required=True, select=True)
-    $5 = fields.Many2One('$3', '$12', ondelete='CASCADE', required=True, select=True)
+    }$4 = fields.Many2One('$2', "$11", ondelete='CASCADE', required=True, select=True)
+    $5 = fields.Many2One('$3', "$12", ondelete='CASCADE', required=True, select=True)
 
     @classmethod
     def __setup__(cls):

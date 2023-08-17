@@ -2,12 +2,12 @@
     <content><![CDATA[
 @classmethod
 def validate(cls, ${1:records}):
-    super(${2:ClassName}, cls).validate($1)
-    for ${3:record} in $1:
-        $3.check_${4:validation}()
+    super().validate($1)
+    for ${2:record} in $1:
+        $2.check_${3:validation}()
 
-def check_$4(self):
-    ${5}
+def check_$3(self):
+    ${4}
 
 ]]></content>
     <tabTrigger>tvalidate</tabTrigger>

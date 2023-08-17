@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<?xml version="1.0"?>
+    <content><![CDATA[<?xml version="1.0"?>
 <!-- The COPYRIGHT file at the top level of this repository contains the full
      copyright notices and license terms. -->
 <tryton>
@@ -8,7 +8,7 @@
     </data>
 </tryton>
 ]]></content>
-	<tabTrigger>theader</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>theader</tabTrigger>
+    <scope>text.xml</scope>
     <description>Tryton: modules file header</description>
 </snippet>

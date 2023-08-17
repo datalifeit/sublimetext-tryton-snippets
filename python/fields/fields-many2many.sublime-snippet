@@ -1,15 +1,15 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.Many2Many('${2:current-model}-${3:target.model}', '${4:field_to_this}', '${5:field_to_target}', '${6:Field Title}'${15}${13:,
-    help='${14}'})
+${1:fieldname} = fields.Many2Many('${2:current-model}-${3:target.model}', '${4:field_to_this}', '${5:field_to_target}', "${6:Field Title}"${15}${13:,
+    help="${14}"})
 
 
 class ${7:CurrentModel}${8:TargetModel}(ModelSQL):
-    '${9:$7} - ${10:$8}'
+    "${9:$7} - ${10:$8}"
     __name__ = '$2-$3'
     ${11:_table = '${12:shorter_table_name}'
-    }$4 = fields.Many2One('$2', '$9', ondelete='CASCADE', required=True, select=True)
-    $5 = fields.Many2One('$3', '$10', ondelete='CASCADE', required=True, select=True)
+    }$4 = fields.Many2One('$2', "$9", ondelete='CASCADE', required=True, select=True)
+    $5 = fields.Many2One('$3', "$10", ondelete='CASCADE', required=True, select=True)
 ]]></content>
     <tabTrigger>tfields.Many2Many</tabTrigger>
     <scope>source.python</scope>

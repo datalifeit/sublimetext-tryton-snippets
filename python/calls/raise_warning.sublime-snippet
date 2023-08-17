@@ -1,8 +1,11 @@
 <snippet>
     <content><![CDATA[
-cls.raise_user_warning('${1:warning_id}', '${2:warning_message_name}'${3:, (${4:substitution value},)})
+pool = Pool()
+Warning = pool.get('res.user.warning')
 
-'$2': '${5:Warning Text}',
+key = '${1:warning_key}'
+if Warning.check(key):
+    raise UserWarning(key, gettext('${2:module_name}.${3:msg_error_id}'))
 ]]></content>
     <tabTrigger>traise_warning</tabTrigger>
     <scope>source.python</scope>

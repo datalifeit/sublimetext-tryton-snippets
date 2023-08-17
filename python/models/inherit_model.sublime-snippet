@@ -7,5 +7,5 @@ class ${1:ClassName}(metaclass=PoolMeta):
 ]]></content>
     <tabTrigger>tinclass</tabTrigger>
     <scope>source.python</scope>
-	<description>Tryton: inherit model</description>
+    <description>Tryton: inherit model</description>
 </snippet>

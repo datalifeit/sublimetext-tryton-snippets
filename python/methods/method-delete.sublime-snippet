@@ -2,8 +2,8 @@
     <content><![CDATA[
 @classmethod
 def delete(cls, ${1:records}):
-    ${3}
-    super(${2:ClassName}, cls).delete($1)
+    ${2}
+    super().delete($1)
 ]]></content>
     <tabTrigger>tdelete</tabTrigger>
     <scope>source.python</scope>

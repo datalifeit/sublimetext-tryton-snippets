@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<record model="ir.ui.view" id="${1:model_id}_view_form">
+    <content><![CDATA[<record model="ir.ui.view" id="${1:model_id}_view_form">
     <field name="model">${2:model_name}</field>
     <field name="type">form</field>
     <field name="name">$1_form</field>
@@ -44,7 +44,7 @@
     <field name="perm_delete" eval="True"/>
 </record>
 ]]></content>
-	<tabTrigger>tcompleteview</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>tcompleteview</tabTrigger>
+    <scope>text.xml</scope>
     <description>Tryton: Complete view</description>
 </snippet>

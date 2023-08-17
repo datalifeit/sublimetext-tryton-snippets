@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.Selection('get_${2:$1s}', '${3:Field Title}'${4:, sort=True}${5:, selection_change_with=[${6:'fieldname',}]}${7:, required=True}${8:, readonly=True}${11}${9:,
-    help='${10}'})
+${1:fieldname} = fields.Selection('get_${2:$1s}', "${3:Field Title}"${4:, sort=True}${5:, selection_change_with=[${6:'fieldname',}]}${7:, required=True}${8:, readonly=True}${11}${9:,
+    help="${10}"})
 
 @staticmethod
 def get_$2():

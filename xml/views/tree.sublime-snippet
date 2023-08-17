@@ -1,9 +1,9 @@
 <snippet>
-	<content><![CDATA[<tree>
+    <content><![CDATA[<tree>
     ${2}
 </tree>
 ]]></content>
-	<tabTrigger>tview_tree</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>tview_tree</tabTrigger>
+    <scope>text.xml</scope>
     <description>Tryton: Tree View</description>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ('${1:fieldname}_uniq', Unique(t, t.${2:table.value}),
-    'The ${3:Field Title} of the ${4:Model Title} must be unique.'),
+    '{3:module_name}.${4:msg_id}'),
 
 ]]></content>
     <tabTrigger>tuniq_constraint</tabTrigger>

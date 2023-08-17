@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+from trytond.exceptions import UserWarning
+from trytond.i18n import gettext
+]]></content>
+    <tabTrigger>timport_error</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: User warning classes import</description>
+</snippet>

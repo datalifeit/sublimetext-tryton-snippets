@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+pool = Pool()
+${1:ModelName} = pool.get('${2:model.name}')
+]]></content>
+    <tabTrigger>tpool</tabTrigger>
+    <scope>source.python</scope>
+    <description>Tryton: model pool instance</description>
+</snippet>

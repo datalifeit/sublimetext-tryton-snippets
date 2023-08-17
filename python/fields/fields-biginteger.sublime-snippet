@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.BigInteger('${2:Field Title}'${3:, required=True}${4:, readonly=True}${7}${5:,
-    help='${6}'})
+${1:fieldname} = fields.BigInteger("${2:Field Title}"${3:, required=True}${4:, readonly=True}${7}${5:,
+    help="${6}"})
 ]]></content>
     <tabTrigger>tfields.BigInteger</tabTrigger>
     <scope>source.python</scope>

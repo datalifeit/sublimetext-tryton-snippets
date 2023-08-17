@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.Numeric('${2:Field Title}', digits=(16, ${3:4})${4:, required=True}${5:, readonly=True}${8}${6:,
-    help='${7}'})
+${1:fieldname} = fields.Numeric("${2:Field Title}", digits=(16, ${3:4})${4:, required=True}${5:, readonly=True}${8}${6:,
+    help="${7}"})
 ]]></content>
     <tabTrigger>tfields.Numeric</tabTrigger>
     <scope>source.python</scope>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.One2Many('${2:target.model}', '${3:many2one_field_in_target}', '${4:Field Title}'${5:, required=True}${6:, readonly=True}${9}${7:,
-    help='${8}'})
+${1:fieldname} = fields.One2Many('${2:target.model}', '${3:many2one_field_in_target}', "${4:Field Title}"${5:, required=True}${6:, readonly=True}${9}${7:,
+    help="${8}"})
 ]]></content>
     <tabTrigger>tfields.One2Many</tabTrigger>
     <scope>source.python</scope>

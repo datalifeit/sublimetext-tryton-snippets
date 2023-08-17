@@ -2,9 +2,9 @@
     <content><![CDATA[
 @classmethod
 def create(cls, vlist):
-    ${3:for vals in vlist:
+    ${2:for vals in vlist:
         }
-    ${2:return} super(${1:ClassName}, cls).create(vlist)
+    ${1:return} super().create(vlist)
 ]]></content>
     <tabTrigger>tcreate</tabTrigger>
     <scope>source.python</scope>

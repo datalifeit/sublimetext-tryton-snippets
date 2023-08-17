@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<record model="ir.action.act_window" id="act_${1:model_id}">
+    <content><![CDATA[<record model="ir.action.act_window" id="act_${1:model_id}">
     <field name="name">${2:plural_title}</field>
     <field name="res_model">${3:model_name}</field>
     <field name="search_value"></field>
@@ -7,7 +7,7 @@
     <field name="context"></field>
 </record>
 ]]></content>
-	<tabTrigger>tact_window</tabTrigger>
-	<scope>text.xml</scope>
+    <tabTrigger>tact_window</tabTrigger>
+    <scope>text.xml</scope>
     <description>Tryton: Action Window record</description>
 </snippet>

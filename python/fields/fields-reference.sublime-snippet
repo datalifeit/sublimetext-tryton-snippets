@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:fieldname} = fields.Reference('${2:Field Title}', selection='get_${3:$1}'${4:, selection_change_with=[${5:'fieldname',}]}${6:, required=True}${7:, readonly=True}${8:, select=True}${11}${9:,
-    help='${10}'})
+${1:fieldname} = fields.Reference("${2:Field Title}", selection='get_${3:$1}'${4:, selection_change_with=[${5:'fieldname',}]}${6:, required=True}${7:, readonly=True}${8:, select=True}${11}${9:,
+    help="${10}"})
 
 @classmethod
 def _get_$3(cls):
